@@ -65,6 +65,13 @@ public class C03Operator {
 //        boolean b2 = num2 >= 10 && num2 <= 30;
 //        System.out.println(b2);
 
-//        비트연산자 : 컴퓨터의 2진체계에서의 연산방식 & | ^ << >>
+//        비트연산자 : 컴퓨터의 2진체계에서의 연산방식 &(and) |(or) ^(xor) << >>
+        int n1 = 5;
+        int n2 = 2;
+//        두 수를 &비트연산하게 되면 각 자릿수에 모두 1이 있어야 1의 결과값이 나옴
+        System.out.println(n1^n2);
+//        왼쪽으로 1칸 옮긴다는 의미는 해당 숫자값에 X2 한다는 의미
+//        오른쪽으로 1칸 옮긴다는 의미는 해당 숫자값에 /2 하게되는 것을 의미
+        System.out.println(n1<<n2);
     }
 }
